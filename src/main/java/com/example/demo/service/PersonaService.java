@@ -33,4 +33,12 @@ public class PersonaService {
         personaRepository.deleteById(idToDelete);
         personaRepository.save(personaToUpdate);
     }
+
+//    public Persona actualizarPersona(Persona persona) {
+//        if (personaRepository.existsById(persona.getId())) {
+//            return personaRepository.save(persona);
+//        } else {
+//            return null;
+//        }
+//    }
 }
